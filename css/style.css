@@ -1,0 +1,126 @@
+﻿body {
+}
+
+#main {
+	margin-bottom: 180px;
+}
+
+.jumbotron {
+	margin-top: 100px;
+	padding: 40px;
+}
+
+.navbar-brand img.logo {
+	width: 60px;
+	height: auto;
+	border-radius: 80px;
+	margin-left: 50px;
+}
+
+img.logo {
+	width: 100px;
+	height: auto;
+	border-radius: 80px;
+}
+
+.right {
+	float: right;
+}
+
+.navbar-collapse ul {
+	padding: 15px;
+}
+
+#pagination {
+	clear:both; 
+	text-align:center; 
+	font-size:18px; 
+	font-weight:bold;	
+}
+
+#pagination a {
+	background-color: #eee;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #000000;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+#pagination .current {
+	background-color: #eee;
+    border-radius: 10px;
+   /* box-shadow: 2px 2px 10px #000000;
+*/    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+#footer {
+	margin-bottom: 0px;
+	margin-top: 30px;
+	border-radius: 0px;
+}
+
+/*------------------------------
+	ADMIN HOME MENU BUTTONS
+------------------------------*/
+.box {
+    background-color: #eee;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px #000000;
+    padding: 40px;
+    margin: 20px;
+    text-align: center;
+}
+
+.box h2 {
+    font-family: cursive;
+}
+
+.box .fa {
+    font-size: 50px;
+}
+
+.box:hover {
+    transform: translateY(-10px)
+}
+
+a .box:hover,
+a:hover {
+    text-decoration: none;
+}
+
+a:hover .box {
+    color: mediumblue;
+}
+
+label {
+	width: 130px;
+}
+
+input[type=file] {
+	margin-left: 115px;
+	margin-top: -25px;
+}
+
+select {
+	margin-left: 13px;
+}
+
+.btn-success {
+	margin-top: 30px;
+}
+
+.hiddenRow {
+	padding: 0 !important;
+}
+
+.hiddenRow .collapse.in,
+.hiddenRow .collapsing {
+	padding: 10px;
+}
+
+img.galleryThumbnail {
+	width: 200px;
+}
